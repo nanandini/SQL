@@ -1,0 +1,58 @@
+CREATE DATABASE cricket_Player;
+use cricket_Player;
+CREATE TABLE CricketPlayers(id int,Country_names varchar(30),No_Of_Players int,Fav_Player_name varchar(25),
+                            Criket_Team_Names varchar(25),Famous_name varchar(25),most_popular_name varchar(28),
+			                famous_for_batting varchar(25),Runner_name varchar(20),no_of_bestplayers int,married_or_not varchar(20),
+                            unmarried_names varchar(25),captain_name varchar(25),no_of_tropies varchar(25),world_cups int);
+SELECT * FROM CricketPlayers;
+INSERT INTO CricketPlayers VALUE(1,'India',46,'MR Dhoni','Indian Team','Virat Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(2,'RCB',30,' Nikhil','Bnagalore Team','Vinod Kumar','Vikas Raj','Kuldeep Yadav','Dhawan Shetter',10,'no','Naveen Kumar','Krishanan',32,28);
+INSERT INTO CricketPlayers VALUE(3,'Punjab',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(4,'Australia',12,'Sachin','Chinnai Team','virat','sharma',' Yadav','Shekar',12,'no',' Shankar','Mr Dhoni',40,50);
+INSERT INTO CricketPlayers VALUE(5,'England',33,'singh','CSK Team','Ranveer','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(6,'Afghanistan',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(7,'Bagladesh',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(8,'Ireland',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(9,'India',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(10,'Pakistan',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(11,'New Zealand',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(12,'Sri Lanka',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(13,'SouthAfrica',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(14,'Zimbabwe',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(15,'West India',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(16,'Pakistan',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(17,'Nether Land',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(18,'oman',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(19,'Nepal',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(20,'Namibia',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(21,'USA',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(22,'ScotLand',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(23,'Punjab',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(24,'Qatar',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(25,'Saudi Arabia',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(26,'Jersey',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(27,'Italy',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(28,'Kuwait',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(29,'Punjab',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(30,'Denmark',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(31,'Bermuda',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(32,'Malaysia',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(33,'Gemany',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(34,'Uganda',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(35,'Norway',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(36,'Nigeria',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(37,'Tanzania',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(38,'Spain',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(39,'France',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(40,'Belize',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(41,'Peru',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(42,'Punjab',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(43,'LuxemBourg',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(44,'Punjab',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(45,'Fiji',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(46,'Mexia',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(47,'Punjab',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(48,'Bhutan',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(49,'Malta',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+INSERT INTO CricketPlayers VALUE(50,'Indonesia',32,'Kohli','Punjab Team',' Kohli','Rohit sharma','Kuldeep Yadav','Shekar Dhawan',14,'no','Vijay Shankar','Mr Dhoni',42,57);
+
